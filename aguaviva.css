@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'antic';
+    src: url(fonte/AnticDidone-Regular.ttf);
+}
+
+body {
+    background: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.main-nav ul {
+    text-align: right;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.main-nav ul li {
+    float: none;
+    display: inline-block;
+}
+
+.main-nav ul li:nth-child(1) {
+    float: left;
+}
+
+
+.main-nav ul li:nth-child(2) {
+    float: left;
+}
+
+
+.main-nav ul li:nth-child(3) {
+    float: left;
+}
+
+.main-nav ul li a {
+    margin: 0 25px;
+    font-family: 'antic';
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 100%;
+}
+
+.content {
+    height: 800px;
+    width: 935px;
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+}
