@@ -8,6 +8,16 @@
     src: url(font/AnticDidone-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'darker';
+    src: url(font/DarkerGrotesque-Light.ttf);
+}
+
+@font-face {
+    font-family: 'darker-medium';
+    src: url(font/DarkerGrotesque-Medium.ttf);
+}
+
 body {
     background: #ffffff;
     margin: 0;
@@ -100,7 +110,7 @@ body {
     margin: 0;
     border: 0;
     width: 1516px;
-    height: 800px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -130,7 +140,7 @@ body {
     width: 1516;
     padding-top: 480px;
     display: flex;
-    padding-left: 45%;
+    padding-left: 47%;
 }
 
 .manual-btn {
@@ -178,7 +188,7 @@ body {
     width: 1516;
     padding-top: 480px;
     display: flex;
-    padding-left: 45%;
+    padding-left: 47%;
 }
 
 .navigation-auto div:not(:last-child) {
@@ -199,4 +209,78 @@ body {
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #767676;
+}
+
+.vendidos {
+    background-color: #F8F5FF;
+}
+
+.planta-vendidos {
+    background-color: #F8F5FF;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 200px;
+}
+
+.title1 {
+    font-family: 'darker';
+    font-size: 43px;
+    text-align: center;
+}
+
+.imgFlor-1 {
+    position: absolute;
+    top: 905px;
+}
+
+.imgFlor-2 {
+    position: absolute;
+    top: 908px;
+}
+
+.imgFlor-3 {
+    position: absolute;
+    top: 908px;
+}
+
+.imgFlor-4 {
+    position: absolute;
+    top: 908px;
+}
+
+.circulo {
+    position: absolute;
+    width: 285.54px;
+    height: 287.25px;
+
+    top: 880px;    
+}
+
+.circulo2 {
+    position: absolute;
+    width: 272.54px;
+    height: 237.25px;
+
+    top: 880px;
+}
+
+.circulo3 {
+    position: absolute;
+    width: 235.54px;
+    height: 237.25px;
+
+    top: 880px;
+}
+
+.circulo4 {
+    position: absolute;
+    width: 235.54px;
+    height: 237.25px;
+
+    top: 880px; 
+}
+
+#circulos {
+    display: flex;
+    justify-content: space-around;
 }
