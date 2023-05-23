@@ -1,6 +1,7 @@
 * {
     border: 0;
     margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -59,7 +60,7 @@ body {
 }
 
 .main-nav ul li a {
-    margin: 0 25px;
+    margin: 0 35px;
     font-family: 'antic';
     text-decoration: none;
     color: #000;
@@ -212,6 +213,8 @@ body {
 }
 
 .vendidos {
+    box-sizing: border-box;
+    height: 500px;
     background-color: #F8F5FF;
 }
 
@@ -223,17 +226,19 @@ body {
 }
 
 .title1 {
+    top: 20px;
     font-family: 'darker';
-    font-size: 43px;
+    font-size: 40px;
     text-align: center;
 }
 
-.imgFlor-1 {
+/* .imgFlor-1 {
     position: absolute;
     top: 905px;
-}
+    z-index: 999;
+} */
 
-.imgFlor-2 {
+/* .imgFlor-2 {
     position: absolute;
     top: 908px;
 }
@@ -246,7 +251,7 @@ body {
 .imgFlor-4 {
     position: absolute;
     top: 908px;
-}
+} */
 
 .circulo {
     position: absolute;
@@ -256,15 +261,85 @@ body {
     top: 880px;    
 }
 
-.circulo2 {
+/* .circulo2 {
     position: absolute;
     width: 272.54px;
     height: 237.25px;
 
     top: 880px;
+} */
+
+.circuloFlor{
+    top: 50px;
+    position: relative;
+    left: 120px;
 }
 
-.circulo3 {
+.circuloFlor::before{
+    content: '';
+    height: 250px;
+    width: 245px;
+    border-radius: 360px;
+    background-color: #B1B1FF;
+    top: 15px;
+    left: -15px;
+    position: absolute;
+    z-index: 0;
+}
+
+.circuloFlor img {
+    position: relative;
+    right: 30px;
+}
+
+.name-flower {
+    margin-top: 30px;
+    margin-left: 63px;
+    font-family: 'darker';
+    font-size: 22px;
+}
+
+.name-flower2 {
+    margin-top: 30px;
+    margin-left: 42px;
+    font-family: 'darker';
+    font-size: 22px;
+}
+
+.name-flower3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'darker';
+    font-size: 22px;
+}
+
+.name-flower4 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'darker';
+    font-size: 22px;
+}
+
+/* .imgFlor-1::before{
+    content: '';
+    
+    background-color: #767676;
+    top: 15px;
+    left: -20px;
+    width: 240px;
+    height: 237.25px;
+    border-radius: 360px;
+    position: absolute;
+    z-index: 0;
+} */
+
+/* .imgFlor-1 {
+    position: absolute;
+    top: 905px;
+    z-index: 999;
+} */
+
+/* .circulo3 {
     position: absolute;
     width: 235.54px;
     height: 237.25px;
@@ -278,7 +353,7 @@ body {
     height: 237.25px;
 
     top: 880px; 
-}
+} */
 
 #circulos {
     display: flex;
