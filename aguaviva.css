@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: 'darker-regular';
+    src: url(font/DarkerGrotesque-Regular.ttf);
+}
+
+@font-face {
     font-family: 'darker';
     src: url(font/DarkerGrotesque-Light.ttf);
 }
@@ -17,6 +22,11 @@
 @font-face {
     font-family: 'darker-medium';
     src: url(font/DarkerGrotesque-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'lexend';
+    src: url(font/LexendDeca-Light.ttf);
 }
 
 body {
@@ -303,6 +313,16 @@ body {
 /* FIM VENDIDOS */
 
 /* LANÇAMENTOS */
+h4.titulo {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.imgs {
+    border: #4F4949 0.5px solid;
+    border-radius: 15px;
+}
+
 .title2 {
     top: 40px;
     font-family: 'darker';
@@ -320,36 +340,47 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
 
-    z-index: 7;
+    z-index: 5;
 }
 
 .card {
     font-family: 'antic';
     font-size: 20px;
     border: 2px solid #BC8EB2;
-    padding: 30px 40px 30px;
+    padding: 50px 65px 50px;
     z-index: 7;
     margin: 7px;
     background-color: white;
 }
 
 .botao {
-    padding: 3px 5px;
-    background-color: blue;
-    border-radius: 5px;
-    color: white;
+    font-size: 18px;
+    font-family: 'lexend';
+
+    margin-left: 8px;
+    padding: 5px 55px;
+    background-color: #E8DCFF;
+    border-radius: 15px;
+    color: #4F4949;
+
+    box-shadow: 0 4px 2px #4f494960;
+}
+.botao:hover {
+    transition: ease-in-out 0.35s;
+    background-color: #BEFFA7;
 }
 
 .preco {
-    font-size: 20px;
-    margin: 7px 0;
+    font-family: 'darker-regular';
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
 .flor-roxa1 {
     width: 120px;
     height: 120px;
     position: absolute;
-    left: 58px;
+    left: 25px;
     top: 1340px;
 }
 
@@ -357,7 +388,7 @@ a {
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 373px;
+    left: 403px;
     top: 1480px;
 }
 
@@ -365,7 +396,7 @@ a {
     width: 120px;
     height: 120px;
     position: absolute;
-    left: 530px;
+    left: 498px;
     top: 1340px;
 }
 
@@ -373,7 +404,7 @@ a {
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 845px;
+    left: 876px;
     top: 1480px;
 }
 
@@ -381,7 +412,7 @@ a {
     width: 120px;
     height: 120px;
     position: absolute;
-    left: 1000px;
+    left: 971px;
     top: 1340px;
 }
 
@@ -389,11 +420,77 @@ a {
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 1320px;
+    left: 1348px;
     top: 1480px;
 }
 /* FIM LANÇAMENTOS */
 
 /* ACESSÓRIOS */
+.acessorios {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title3 {
+    top: 40px;
+    font-family: 'darker';
+    font-size: 40px;
+    text-align: center;
+}
+
+.acc {
+    border: #000 solid 2px;
+    z-index: 5;
+    width: 260px;
+}
+
+.lateral-1 {
+    position: absolute;
+    top: 2000px;
+    right: 311px;
+}
+
+.lateral-01 {
+    position: absolute;
+    top: 2250px;
+    right: 43px;
+}
+
+.lateral-2 {
+    position: absolute;
+    top: 2000px;
+    right: 691px;
+}
+
+.lateral-02 {
+    position: absolute;
+    top: 2250px;
+    right: 423px;
+}
+
+.lateral-3 {
+    position: absolute;
+    top: 2000px;
+    right: 1070px;
+}
+
+.lateral-03 {
+    position: absolute;
+    top: 2250px;
+    right: 802px;
+}
+
+.lateral-4 {
+    position: absolute;
+    top: 2000px;
+    right: 1450px;
+}
+
+.lateral-04 {
+    position: absolute;
+    top: 2250px;
+    right: 1182px;
+}
 
 /* FIM ACESSÓRIOS */
