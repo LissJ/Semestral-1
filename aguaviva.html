@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Floricultura Água Viva</title>
     <link rel="stylesheet" href="aguaviva.css">
+
+    <link rel="stylesheet" href="image/logo-icon.png">
 </head>
 
 <body>
@@ -15,12 +17,12 @@
         <nav>
             <div class="main-nav">
                 <ul>
-                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
                     <li><a href="#">Plantas</a></li>
                     <li><a href="#">Acessórios</a></li>
                     <li><a href="#">Carrinho</a></li>
                     <li><a href="#">Favoritos</a></li>
-                    <li><a href="#">Cadastre-se</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,7 +58,7 @@
 
                 <!-- navigation auto -->
                 <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div> 
                     <div class="auto-btn2"></div>
                     <div class="auto-btn3"></div>
                     <div class="auto-btn4"></div>
@@ -85,7 +87,8 @@
             <div class="planta-vendidos">
                 <div class="circuloFlor">
                     <div class="imgFlor-1">
-                        <a href="#"><img src="image/imgFlor1.png" alt="" width="245px"></a>
+                        <a href="#"><img src="image/imgFlor1.png" onmouseover="this.src='image/segimage.png'"
+                            onmouseout="this.src='image/imgFlor1.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower">
                         <h2>
@@ -98,7 +101,8 @@
 
                 <div class="circuloFlor">
                     <div class="imgFlor-2">
-                        <a href="#"><img src="image/imgFlor2.png" alt="" width="245px"></a>
+                        <a href="#"><img src="image/imgFlor2.png" onmouseover="this.src='image/img 2.png'"
+                            onmouseout="this.src='image/imgFlor2.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower2">
                         <h2>
@@ -110,7 +114,8 @@
                 <div class="circuloFlor">
                     <div class="imgFlor-3">
 
-                        <a href="#"><img src="image/imgFlor3.png" alt="" width="245px"></a>
+                        <a href="#"><img src="image/imgFlor3.png" onmouseover="this.src='image/image50.jpg'"
+                            onmouseout="this.src='image/imgFlor3.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower3">
                         <h2>
@@ -122,7 +127,8 @@
                 <div class="circuloFlor">
                     <div class="imgFlor-4">
 
-                        <a href="#"><img src="image/imgFlor4.png" alt="" width="245px"></a>
+                        <a href="#"><img src="image/imgFlor4.png" onmouseover="this.src='image/image 91.jpg'"
+                            onmouseout="this.src='image/imgFlor4.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower4">
                         <h2>
@@ -134,7 +140,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="lancamentos">
             <br><br>
             <h1 class="title2">
                 Lançamentos
@@ -194,32 +200,82 @@
             </h1>
         </div>
         <div class="ver-mais">
-            <a href="#">Ver mais</a>
+            <a class="botao-mais" href="#">Ver mais</a>
         </div>
         <div class="acessorios">
 
-            <div class="acessorio">
-                <img src="image/Rectangle 14.png" alt="" class="acc">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-1">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-01">
-            </div>
-            <div class="acessorio">
-                <img src="image/Rectangle 15.png" alt="" class="acc">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-2">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-02">
-            </div>
-            <div class="acessorio">
-                <img src="image/Rectangle 16.png" alt="" class="acc">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-3">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-03">
-            </div>
-            <div class="acessorio">
-                <img src="image/Rectangle 17.png" alt="" class="acc">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-4">
-                <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-04">
-            </div>
+            <a href="">
+                <div class="acessorio">
+                    <img src="image/Rectangle 14.png" onmouseover="this.src='image/image 18.png'"
+                        onmouseout="this.src='image/Rectangle 14.png'" class="acc">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-1">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-01">
+                </div>
+                
+            </a>
+            
+            <a href="">
+                <div class="acessorio">
+                    <img src="image/Rectangle 15.png" onmouseover="this.src='image/image 92.png'"
+                        onmouseout="this.src='image/Rectangle 15.png'" class="acc">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-2">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-02">
+                </div>
+            </a>
+            <a href="">
+                <div class="acessorio">
+                    <img src="image/Rectangle 16.png" onmouseover="this.src='image/Suporte-de-metal.png'"
+                        onmouseout="this.src='image/Rectangle 16.png'" class="acc">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-3">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-03">
+                </div>
+            </a>
+            <a href="">
+                <div class="acessorio">
+                    <img src="image/Rectangle 17.png" onmouseover="this.src='image/suportezin.png'"
+                        onmouseout="this.src='image/Rectangle 17.png'" class="acc">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-4">
+                    <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-04">
+                </div>
+            </a>
+        </div>
+        <div class="botoes-frete">
+            <a class="bot" href="#">50% OFF</a>
+            <a class="bot" href="#">Frete grátis</a>
+            <a class="bot" href="#">50% OFF</a>
+            <a class="bot" href="#">Frete grátis</a>
         </div>
     </main>
+
+    <footer>
+        <div class="roxao">
+            <div class="empurrar">
+                <a class="Plantas" href="#">Plantas</a>
+                <div class="linhaum"></div>
+                <a class="Acessorios" href="#">Acessórios</a>
+                <div class="linhadois"></div>
+                <a class="Lancamentos" href="#">Lançamentos</a>
+                <div class="linhatres"></div>
+                <a class="Login" href="#">Login</a>
+                <div class="linhaquatro"></div>
+                <a class="Favoritos" href="#">Favoritos</a>
+                <div class="linhacinco"></div>
+                <a class="Carrinho" href="#">Carrinho</a>
+                <div class="linhaseis"></div>
+            </div>
+            <a class="Suporte" href="#">Suporte</a>
+            <div class="linhasete"></div>
+            <a class="Sobre" href="#">Sobre nós</a>
+        </div>
+
+        <p class="app">Siga-nos</p>
+        <a href="https://pt-br.facebook.com/people/%C3%81gua-Viva-Flores-e-Decora%C3%A7%C3%B5es/100057605292210/"><img src="image/facebook.png" alt="icone facebook" class="face"></a>
+        <img class="insta" src="image/instagram.png" alt="icone instagram">
+
+        <p class="endereco">Endereço:Rua Santos Dumont, Avenida Santos Dumont, 680, Ferraz de Vasconcelos - SP,
+            08530-000</p>
+    </footer>
+
     <script src="aguaviva.js"></script>
 </body>
 
