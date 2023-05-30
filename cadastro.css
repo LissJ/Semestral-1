@@ -161,7 +161,6 @@ nav ul li a:hover::after {
 .img {
     display: flex;
     width: 600px;
-    justify-items: ;
 }
 
 .tudo {
@@ -184,7 +183,321 @@ nav ul li a:hover::after {
 .subtitulo {
     margin-top: 10px;
 
+    font-weight: 400;
     font-size: 20px;
     font-family: 'antic';
 }
+    /* FORMULÁRIO */
+    form {
+        margin-top: 50px;
+    }
+
+    label {
+        margin-right: 200px;
+
+        font-family: 'antic';
+        font-weight: 800px;
+    }
+
+    .digite {
+        background-color: #CDB4FF;
+    }
+
+    .esp {
+        margin-top: 20px;
+    }
+    /* FIM FORMULÁRIO */
+
 /* FIM CADASTRO */
+
+/* RODAPÉ */
+.roxao {
+    position: absolute;
+    width: 100%;
+    height: 323px;
+    top: 1021px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background: #E8DCFF;
+}
+
+.empurrar {
+    position: absolute;
+    left: 41px;
+}
+
+.Plantas {
+    position: absolute;
+    width: 83px;
+    height: 17px;
+    left: 344px;
+    top: 43px;
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.linhaum {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 422px;
+    top: 53px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.Acessorios {
+    position: absolute;
+    width: 124px;
+    height: 12px;
+    left: 442px;
+    top: 43px;
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.linhadois {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 563px;
+    top: 53px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.Lancamentos {
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 593px;
+    top: 43px;
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.linhatres {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 729px;
+    top: 53px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.Login {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 759px;
+    top: 43px;
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.linhaquatro {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 816px;
+    top: 53px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+
+}
+
+.Favoritos {
+    position: absolute;
+    width: 91px;
+    height: 17px;
+    left: 846px;
+    top: 43px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.linhacinco {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 943px;
+    top: 53px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.Carrinho {
+    position: absolute;
+    width: 83px;
+    height: 17px;
+    left: 974px;
+    top: 43px;
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.linhaseis {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 1064px;
+    top: 53px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.Suporte {
+    position: absolute;
+    width: 105px;
+    height: 17px;
+    top: 103px;
+    left: 675px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.linhasete {
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 769.5px;
+    top: 112.5px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.Sobre {
+    position: absolute;
+    width: 103px;
+    height: 17px;
+    left: 797px;
+    top: 103px;
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.app {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width: 119px;
+    height: 17px;
+    left: 719px;
+    top: 1185px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.face {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 740px;
+    top: 1225px;
+}
+
+.insta {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 784px;
+    top: 1225.5px;
+}
+
+.endereco {
+    position: absolute;
+    width: 898px;
+    height: 17px;
+    left: 315.5px;
+    top: 1300px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+.suporte {
+    position: absolute;
+    width: 67px;
+    height: 180px;
+    left: 1433px;
+    top: 435px;
+    background: #A3A3F8;
+    border-radius: 5px;
+}
+
+.suporte-nome {
+    position: absolute;
+    width: 121px;
+    height: 45px;
+    right: 1px;
+    left: -17px;
+    top: 74px;
+    font-family: 'darker-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38.5714px;
+    line-height: 52px;
+    color: #fff;
+    transform: rotate(90deg);
+}
+/* FIM RODAPÉ */
