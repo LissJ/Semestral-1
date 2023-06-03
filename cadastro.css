@@ -170,7 +170,7 @@ nav ul li a:hover::after {
 .cadastro {
     margin-left: 110px;
     width: 55vw;
-    text-align: center;
+    
 }
 
 .titulo {
@@ -178,6 +178,7 @@ nav ul li a:hover::after {
 
     font-size: 30px;
     font-family: 'antic';
+    text-align: center;
 }
 
 .subtitulo {
@@ -186,25 +187,85 @@ nav ul li a:hover::after {
     font-weight: 400;
     font-size: 20px;
     font-family: 'antic';
+    text-align: center;
 }
     /* FORMULÁRIO */
     form {
+        padding: 0 80px;
         margin-top: 50px;
     }
 
     label {
+        font-size: 13px;
         margin-right: 200px;
+        
 
+        font-family: 'inter';
+        font-weight: 590;
+    }
+
+    .container {
+        max-width: 1280px;
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    .input-single {
+        position: relative;
+        
+        margin: 20px 50px;
+    }
+
+    .input-single label {
+        
+        position: absolute;
+        bottom: 5px;
+        transition: all 0.2s;
+
+        cursor: text;
+    }
+
+    .input {
+        width: 100%;
+        border: 0;
+        
+        border-bottom: 2px solid #A3A3F8;
+        padding: 3px;
+        font-size: 17px;
+        outline: 0;
+    }
+
+    form .input-single .input:focus ~ label,
+    form .input-single .input:valid ~ label {
+        transform: translateY(-22px);
+        font-size: 11px;
+        color: #A3A3F8;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    form input[type=submit] {
         font-family: 'antic';
-        font-weight: 800px;
-    }
-
-    .digite {
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 10px 40px;
+        border: 0;
+        border-radius: 15px;
         background-color: #CDB4FF;
+        color: #000;
+        cursor: pointer;
     }
 
-    .esp {
-        margin-top: 20px;
+    .login-tenho {
+        text-decoration: none;
+        margin-left: 275px;
+        color: #000;
+        font-family: 'antic';
     }
     /* FIM FORMULÁRIO */
 
