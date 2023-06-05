@@ -4,11 +4,17 @@
     padding: 0;
 }
 
-nav ul li a {
+nav ul li a{
     transition: color 0.4s;
     position: relative;
     
 }
+
+.a{
+    transition: color 0.4s;
+    position: relative;
+}
+
 
 nav li a::after {
     content: '';
@@ -22,6 +28,25 @@ nav li a::after {
 
     transition: width 0.3s;
 }
+
+
+.a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #CDB4FF;
+
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+
+    transition: width 0.3s;
+}
+
+.a:hover::after{
+    width: 100%;
+}
+
 
 nav ul li a:hover::after {
     width: 100%;
@@ -98,12 +123,36 @@ body {
     float: left;
 }
 
-.main-nav ul li a p{
+.main-nav ul li a {
     margin: 0 35px;
     font-family: 'antic';
     text-decoration: none;
     color: #000;
     font-size: 22px;
+}
+
+.cadastro{
+   /* margin-top: -100px; */
+    font-family: 'darker-regular';
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    cursor: pointer;
+    top: -5px;
+}
+
+.a{
+    margin: 0 35px;
+    font-family: 'antic';
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.a p{
+   background-color: #fff;
 }
 
 .logo {
@@ -146,11 +195,11 @@ body {
 /* FIM NAVEGAÇÃO */
 
 /* POPUP */
-.popup{
+.pop {
     /* border: #000000 solid 1px; */
     width: 370px;
     height: 371px;
-    background: #ffffff;
+    background: #f6f6f6;
     border-radius: 11.24px;
     position: absolute;
     left: 710PX;
@@ -164,44 +213,101 @@ body {
     transition: transform 0.1s, top 0.4s;
     box-shadow:  0 45px 85px #383842 ;
     z-index: 999;
-   
 }
 
-.popup img{
-width: 146.03px;
-height: 152.9px;
-
+.popp {
+    width: 370px;
+    height: 371px;
+    background: #f6f6f6;
+    border-radius: 11.24px;
+    position: absolute;
+    left: 710PX;
+    top: 0;
+    transform: translate(-50%,-50%) ;
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333 ;
+    justify-content: center;
+    visibility: hidden;
+    transition: transform 0.1s, top 0.4s;
+    box-shadow:  0 45px 85px #383842 ;
+    z-index: 999;
 }
 
-.popup p{
-    font-size:21.36px ;
+.pop img {
+    width: 146.03px;
+    height: 152.9px;
+}
+
+.popp img {
+    width: 146.03px;
+    height: 152.9px;
+}
+
+.pop p {
+    font-size: 25px ;
     font-weight: 500;
     margin: 30px 0 25px;
-    font-family: 'antic';
+    font-family: 'darker-regular';
 }
 
-.popup button{
+.popp p {
+    font-size: 25px ;
+    font-weight: 500;
+    margin: 30px 0 25px;
+    font-family: 'darker-regular';
+}
+
+.pop button {
     width: 115.42px;
     height: 43.77px;
-    margin-top: 17px;
-    padding: 10px 0;
+    /* margin-top: 17px;
+    padding: 10px 0; */
     background: #EDE4FF;
     color: #000000;
     font-family: 'antic';
     border: 0;
     outline: none;
     font-size: 18px;
-    border-radius:17.99px;
+    border-radius: 18px;
     cursor: pointer;
-   
 }
 
-.open-popup{
-    visibility: visible;
-    top: 250px;
-    transform: translate(-50%,-50%) scale(1);
-   
+.popp button {
+    width: 115.42px;
+    height: 43.77px;
+    /* margin-top: 5px; */
+    /* padding: 10px 0; */
+    background: #EDE4FF;
+    color: #000000;
+    font-family: 'antic';
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 18px;
+    cursor: pointer;
+}
 
+.open-pop {
+    left: 760px;
+    visibility: visible;
+    top: 350px;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+.open-popp {
+    left: 760px;
+    visibility: visible;
+    top: 350px;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.tenho {
+    font-family: 'darker-regular';
+    font-size: 22px;
+    color: #7878cf;
+    /* bottom: 150px; */
 }
 /* FIM POPUP */
 
@@ -316,12 +422,14 @@ height: 152.9px;
 
 /* VENDIDOS */
 .vendidos {
+    padding: 0 30px;
     box-sizing: border-box;
     height: 500px;
     background-color: #F8F5FF;
 }
 
 .planta-vendidos {
+    padding: 0 30px;
     background-color: #F8F5FF;
     display: flex;
     justify-content: space-around;
@@ -329,6 +437,7 @@ height: 152.9px;
 }
 
 .title1 {
+        padding: 0 30px;
     top: 20px;
     font-family: 'darker';
     font-size: 40px;
@@ -336,6 +445,7 @@ height: 152.9px;
 }
 
 .circulo {
+        padding: 0 30px;
     position: absolute;
     width: 285.54px;
     height: 287.25px;
@@ -344,6 +454,7 @@ height: 152.9px;
 }
 
 .circuloFlor{
+        padding: 0 30px;
     top: 50px;
     position: relative;
     left: 120px;

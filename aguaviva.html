@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floricultura Água Viva</title>
     <link rel="stylesheet" href="aguaviva.css">
 
@@ -18,9 +20,9 @@
             <div class="main-nav">
                 <ul>
                     <li><a href="#lancamentos">Lançamentos</a></li>
-                    <li><a href="#">Plantas</a></li>
-                    <li><a href="#">Acessórios</a></li>
-                    <button type="submit" class="rox" onclick="openPopup()">
+                    <li><a href="Plantas.html">Plantas</a></li>
+                    <li><a href="Acessorios.html">Acessórios</a></li>
+                    <button type="submit" class="a" onclick="openPop()">
                         <li>
                             <p>
                                 Carrinho
@@ -28,8 +30,15 @@
                         </li>
                         <!-- <li><a href="">Carrinho</a></li> -->
                     </button>
-                    <li><a href="#">Favoritos</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
+
+                    <button type="submit" class="a" onclick="openPopp()">
+                        <li>
+                            <p>
+                                Favoritos
+                            </p>
+                        </li>
+                    </button>
+                    <li><a class="cadastro" href="cadastro.html">Cadastre-se</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,28 +47,52 @@
         </button>
     </header>
     <main>
-
-
-
-        <div class="popup" id="popup">
+        <div class="pop" id="pop">
             <img src="image/logo.png" alt="">
             <p>Para adicionar ao carrinho, cadastre-se ou entre em seu perfil.</p>
-            <button type="button" onclick="closePopup()">OK</button>
+            <button type="button" onclick="closePop()">OK</button>
+            <br><br>
+                <a class="tenho" href="login.html">Já tenho login</a>
         </div>
 
         <script>
-            let popup = document.getElementById("popup");
+            let pop = document.getElementById("pop");
 
-            function openPopup() {
-                popup.classList.add("open-popup");
+            function openPop() {
+                pop.classList.add("open-pop");
             }
 
 
-            function closePopup() {
-                popup.classList.remove("open-popup");
+            function closePop() {
+                pop.classList.remove("open-pop");
             }
 
         </script>
+
+
+        <div class="popp" id="popp">
+            <img src="image/logo.png" alt="">
+            <p>Para adicionar aos favoritos, cadastre-se ou entre em seu perfil.</p>
+
+            <button type="button" onclick="closePopp()">OK</button>
+            <br><br>
+            <a class="tenho" href="login.html">Já tenho login</a>
+        </div>
+
+        <script>
+            let popp = document.getElementById("popp");
+
+            function openPopp() {
+                popp.classList.add("open-popp");
+            }
+
+
+            function closePopp() {
+                popp.classList.remove("open-popp");
+            }
+
+        </script>
+
 
 
         <div class="slider">
@@ -119,7 +152,7 @@
             <div class="planta-vendidos">
                 <div class="circuloFlor">
                     <div class="imgFlor-1">
-                        <a href="#"><img src="image/imgFlor1.png" onmouseover="this.src='image/segimage.png'"
+                        <a href="produtoum.html"><img src="image/imgFlor1.png" onmouseover="this.src='image/segimage.png'"
                                 onmouseout="this.src='image/imgFlor1.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower">
@@ -133,7 +166,7 @@
 
                 <div class="circuloFlor">
                     <div class="imgFlor-2">
-                        <a href="#"><img src="image/imgFlor2.png" onmouseover="this.src='image/img 2.png'"
+                        <a href="orquídia.html"><img src="image/imgFlor2.png" onmouseover="this.src='image/img 2.png'"
                                 onmouseout="this.src='image/imgFlor2.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower2">
@@ -146,7 +179,7 @@
                 <div class="circuloFlor">
                     <div class="imgFlor-3">
 
-                        <a href="#"><img src="image/imgFlor3.png" onmouseover="this.src='image/image50.jpg'"
+                        <a href="produtotres.html"><img src="image/imgFlor3.png" onmouseover="this.src='image/image50.jpg'"
                                 onmouseout="this.src='image/imgFlor3.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower3">
@@ -159,7 +192,7 @@
                 <div class="circuloFlor">
                     <div class="imgFlor-4">
 
-                        <a href="#"><img src="image/imgFlor4.png" onmouseover="this.src='image/image 91.jpg'"
+                        <a href="produtoquatro.html"><img src="image/imgFlor4.png" onmouseover="this.src='image/image 91.jpg'"
                                 onmouseout="this.src='image/imgFlor4.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower4">
@@ -188,7 +221,7 @@
                 <p class="preco">
                     R$53,00
                 </p>
-                <a href="" class="botao">+ i n f o s</a>
+                <a href="produtocinco.html" class="botao">+ i n f o s</a>
             </div>
             <div class="content">
                 <img class="flor-roxa1" src="image/flor roxa.png" alt="" width="100px">
@@ -203,7 +236,7 @@
                 <p class="preco">
                     R$57,00
                 </p>
-                <a href="" class="botao">+ i n f o s</a>
+                <a href="produtosete.html" class="botao">+ i n f o s</a>
             </div>
             <div class="content">
                 <img class="flor-roxa2" src="image/flor roxa.png" alt="" width="100px">
@@ -218,7 +251,7 @@
                 <p class="preco">
                     R$40,00
                 </p>
-                <a href="" class="botao">+ i n f o s</a>
+                <a href="produtooito.html" class="botao">+ i n f o s</a>
             </div>
             <div class="content">
                 <img class="flor-roxa3" src="image/flor roxa.png" alt="" width="100px">
@@ -232,11 +265,11 @@
             </h1>
         </div>
         <div class="ver-mais">
-            <a class="botao-mais" href="#">Ver mais</a>
+            <a class="botao-mais" href="Acessorios.html">Ver mais</a>
         </div>
         <div class="acessorios">
 
-            <a href="">
+            <a href="acessoriosum.html">
                 <div class="acessorio">
                     <img src="image/Rectangle 14.png" onmouseover="this.src='image/image 18.png'"
                         onmouseout="this.src='image/Rectangle 14.png'" class="acc">
@@ -246,7 +279,7 @@
 
             </a>
 
-            <a href="">
+            <a href="acessoriosdois.html">
                 <div class="acessorio">
                     <img src="image/Rectangle 15.png" onmouseover="this.src='image/image 92.png'"
                         onmouseout="this.src='image/Rectangle 15.png'" class="acc">
@@ -254,7 +287,7 @@
                     <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-02">
                 </div>
             </a>
-            <a href="">
+            <a href="acessoriostres.html">
                 <div class="acessorio">
                     <img src="image/Rectangle 16.png" onmouseover="this.src='image/Suporte-de-metal.png'"
                         onmouseout="this.src='image/Rectangle 16.png'" class="acc">
@@ -262,7 +295,7 @@
                     <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-03">
                 </div>
             </a>
-            <a href="">
+            <a href="acessoriosquatro.html">
                 <div class="acessorio">
                     <img src="image/Rectangle 17.png" onmouseover="this.src='image/suportezin.png'"
                         onmouseout="this.src='image/Rectangle 17.png'" class="acc">
@@ -272,10 +305,10 @@
             </a>
         </div>
         <div class="botoes-frete">
-            <a class="bot" href="#">50% OFF</a>
-            <a class="bot" href="#">Frete grátis</a>
-            <a class="bot" href="#">50% OFF</a>
-            <a class="bot" href="#">Frete grátis</a>
+            <a class="bot" href="acessoriosum.html">50% OFF</a>
+            <a class="bot" href="acessoriosdois.html">Frete grátis</a>
+            <a class="bot" href="acessoriostres.html">50% OFF</a>
+            <a class="bot" href="acessoriosquatro.html">Frete grátis</a>
         </div>
     </main>
 
@@ -303,7 +336,9 @@
         <p class="app">Siga-nos</p>
         <a href="https://pt-br.facebook.com/people/%C3%81gua-Viva-Flores-e-Decora%C3%A7%C3%B5es/100057605292210/"><img
                 src="image/facebook.png" alt="icone facebook" class="face"></a>
-        <img class="insta" src="image/instagram.png" alt="icone instagram">
+                <a href="https://instagram.com/aguavivafloress">
+                    <img class="insta" src="image/instagram.png" alt="icone instagram">
+                </a>
 
         <p class="endereco">Endereço:Rua Santos Dumont, Avenida Santos Dumont, 680, Ferraz de Vasconcelos - SP,
             08530-000</p>
