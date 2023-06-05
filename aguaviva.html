@@ -20,14 +20,46 @@
                     <li><a href="#lancamentos">Lançamentos</a></li>
                     <li><a href="#">Plantas</a></li>
                     <li><a href="#">Acessórios</a></li>
-                    <li><a href="#">Carrinho</a></li>
+                    <button type="submit" class="rox" onclick="openPopup()">
+                        <li>
+                            <p>
+                                Carrinho
+                            </p>
+                        </li>
+                        <!-- <li><a href="">Carrinho</a></li> -->
+                    </button>
                     <li><a href="#">Favoritos</a></li>
                     <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>
             </div>
         </nav>
+
+
+        </button>
     </header>
     <main>
+
+
+
+        <div class="popup" id="popup">
+            <img src="image/logo.png" alt="">
+            <p>Para adicionar ao carrinho, cadastre-se ou entre em seu perfil.</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+        <script>
+            let popup = document.getElementById("popup");
+
+            function openPopup() {
+                popup.classList.add("open-popup");
+            }
+
+
+            function closePopup() {
+                popup.classList.remove("open-popup");
+            }
+
+        </script>
 
 
         <div class="slider">
@@ -58,7 +90,7 @@
 
                 <!-- navigation auto -->
                 <div class="navigation-auto">
-                    <div class="auto-btn1"></div> 
+                    <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
                     <div class="auto-btn3"></div>
                     <div class="auto-btn4"></div>
@@ -88,7 +120,7 @@
                 <div class="circuloFlor">
                     <div class="imgFlor-1">
                         <a href="#"><img src="image/imgFlor1.png" onmouseover="this.src='image/segimage.png'"
-                            onmouseout="this.src='image/imgFlor1.png'" width="245px" class="plan"></a>
+                                onmouseout="this.src='image/imgFlor1.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower">
                         <h2>
@@ -102,7 +134,7 @@
                 <div class="circuloFlor">
                     <div class="imgFlor-2">
                         <a href="#"><img src="image/imgFlor2.png" onmouseover="this.src='image/img 2.png'"
-                            onmouseout="this.src='image/imgFlor2.png'" width="245px" class="plan"></a>
+                                onmouseout="this.src='image/imgFlor2.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower2">
                         <h2>
@@ -115,7 +147,7 @@
                     <div class="imgFlor-3">
 
                         <a href="#"><img src="image/imgFlor3.png" onmouseover="this.src='image/image50.jpg'"
-                            onmouseout="this.src='image/imgFlor3.png'" width="245px" class="plan"></a>
+                                onmouseout="this.src='image/imgFlor3.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower3">
                         <h2>
@@ -128,7 +160,7 @@
                     <div class="imgFlor-4">
 
                         <a href="#"><img src="image/imgFlor4.png" onmouseover="this.src='image/image 91.jpg'"
-                            onmouseout="this.src='image/imgFlor4.png'" width="245px" class="plan"></a>
+                                onmouseout="this.src='image/imgFlor4.png'" width="245px" class="plan"></a>
                     </div>
                     <div class="name-flower4">
                         <h2>
@@ -211,9 +243,9 @@
                     <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-1">
                     <img src="image/flor-lateral.png" alt="" width="30px" class="lateral-01">
                 </div>
-                
+
             </a>
-            
+
             <a href="">
                 <div class="acessorio">
                     <img src="image/Rectangle 15.png" onmouseover="this.src='image/image 92.png'"
@@ -269,7 +301,8 @@
         </div>
 
         <p class="app">Siga-nos</p>
-        <a href="https://pt-br.facebook.com/people/%C3%81gua-Viva-Flores-e-Decora%C3%A7%C3%B5es/100057605292210/"><img src="image/facebook.png" alt="icone facebook" class="face"></a>
+        <a href="https://pt-br.facebook.com/people/%C3%81gua-Viva-Flores-e-Decora%C3%A7%C3%B5es/100057605292210/"><img
+                src="image/facebook.png" alt="icone facebook" class="face"></a>
         <img class="insta" src="image/instagram.png" alt="icone instagram">
 
         <p class="endereco">Endereço:Rua Santos Dumont, Avenida Santos Dumont, 680, Ferraz de Vasconcelos - SP,
