@@ -556,7 +556,7 @@ form input[type=submit] {
     position: absolute;
     width: 53px;
     height: 17px;
-    left: 759px;
+    left: 799px;
     top: 43px;
     text-decoration: none;
     font-family: 'inter';
@@ -625,7 +625,7 @@ form input[type=submit] {
     position: absolute;
     width: 22px;
     height: 0px;
-    left: 1064px;
+    left: 1102px;
     top: 53px;
     border: 1px solid #000000;
     transform: rotate(90deg);
@@ -793,10 +793,12 @@ nav ul.menu-icones {
 
 .florroxinha {
     visibility: hidden;
+    width: 10px;
 }
 
 .local {
     visibility: hidden;
+    width: 10px;
 }
 
 /* FIM TAMANHOS E ESCONDER ICON */
@@ -951,10 +953,11 @@ nav ul.menu-icones {
     }
 
     .Login {
+        z-index: 999;
         position: absolute;
         width: 53px;
         height: 17px;
-        left: 289px;
+        left: 325px;
         top: 55px;
         text-decoration: none;
         font-family: 'inter';
@@ -980,7 +983,7 @@ nav ul.menu-icones {
         position: absolute;
         width: 22px;
         height: 0px;
-        left: 267px;
+        left: 304px;
         top: 64.5px;
         border: 1px solid #000000;
         transform: rotate(90deg);
@@ -1103,6 +1106,13 @@ nav ul.menu-icones {
 
     body {
         height: 100vw;
+    }
+
+    .empurrar {
+        /* height: auto;
+        width: auto;
+        display: inline; */
+        display: none;
     }
 }
 
