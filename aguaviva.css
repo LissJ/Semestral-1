@@ -542,7 +542,7 @@ a {
     display: flex;
     margin: 50px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 
     z-index: 5;
 }
@@ -553,7 +553,8 @@ a {
     border: 2px solid #BC8EB2;
     padding: 50px 65px 50px;
     z-index: 7;
-    margin: 7px;
+    margin-left: 128px;
+    margin-right: -56px;
     background-color: white;
 }
 
@@ -585,7 +586,7 @@ a {
     width: 120px;
     height: 120px;
     position: absolute;
-    left: 25px;
+    left: 87px;
     top: 1340px;
 }
 
@@ -622,42 +623,108 @@ a {
 }
 
 .flor-roxa03 {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     position: absolute;
-    left: 1348px;
-    top: 1480px;
+    left: 1292px;
+    top: 1355px;
 }
 /* FIM LANÇAMENTOS */
 
 /* ACESSÓRIOS */
-.bot {
+.bot1 {
+    position: relative;
     font-family: 'inter';
     font-weight: bolder;
     font-size: 20px;
-
+    top: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 80px;
     padding-right: 80px;
-    
+    text-align: center;
+    color: #fff;
+    background-color: #D49DCA;
+    border-radius: 7px;
+    margin-right: 7px;
+    margin-left: 184px;
+}
+
+.bot2 {
+    position: relative;
+    font-family: 'inter';
+    font-weight: bolder;
+    font-size: 20px;
+    top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 68px;
+    padding-right: 68px;
+    text-align: center;
+    color: #fff;
+    background-color: #D49DCA;
+    border-radius: 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.bot3 {
+    position: relative;
+    font-family: 'inter';
+    font-weight: bolder;
+    font-size: 20px;
+    top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    color: #fff;
+    background-color: #D49DCA;
+    border-radius: 7px;
+    margin-right: 3px;
+    margin-left: 4px;
+}
+
+.bot4 {
+    position: relative;
+    font-family: 'inter';
+    font-weight: bolder;
+    font-size: 20px;
+    top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 68px;
+    padding-right: 68px;
+    text-align: center;
+    color: #fff;
+    background-color: #D49DCA;
+    border-radius: 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.frete{
+    position: relative;
+    font-family: 'inter';
+    font-weight: bolder;
+    font-size: 20px;
+   top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
     color: #fff;
     background-color: #D49DCA;
     border-radius: 7px;
 }
 
-.botoes-frete {
-    margin-top: 15px;
-
-    display: flex;
-    justify-content: space-around;
-}
-
 .ver-mais {
     cursor: pointer;
 
-    margin-left: 1250px;
-    margin-right: 100px;
+    margin-left: 1179px;
+    margin-right: 170px;
 
     font-family: 'inter';
     font-size: 17.2px;
@@ -690,9 +757,14 @@ a {
 .acessorios {
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    padding-right: 500px;
+    /* justify-content: space-around; */
 }
 
+.um,.bot{
+    text-align: center;
+    
+}
 .title3 {
     top: 40px;
     font-family: 'darker';
@@ -704,54 +776,56 @@ a {
     border: #000 solid 2px;
     z-index: 5;
     width: 260px;
+    margin-left: 177px;
+    margin-right: -139px;
 }
 
 .lateral-1 {
     position: absolute;
     top: 2040px;
-    right: 311px;
+    right: 428px;
 }
 
 .lateral-01 {
     position: absolute;
     top: 2300px;
-    right: 43px;
+    right: 159px;
 }
 
 .lateral-2 {
     position: absolute;
     top: 2040px;
-    right: 691px;
+    right: 730px;
 }
 
 .lateral-02 {
     position: absolute;
     top: 2300px;
-    right: 423px;
+    right: 461px;
 }
 
 .lateral-3 {
     position: absolute;
     top: 2040px;
-    right: 1070px;
+    right: 1031px;
 }
 
 .lateral-03 {
     position: absolute;
     top: 2300px;
-    right: 802px;
+    right: 762px;
 }
 
 .lateral-4 {
     position: absolute;
     top: 2040px;
-    right: 1450px;
+    right: 1333px;
 }
 
 .lateral-04 {
     position: absolute;
     top: 2300px;
-    right: 1182px;
+    right: 1063px;
 }
 /* FIM ACESSÓRIOS */
 

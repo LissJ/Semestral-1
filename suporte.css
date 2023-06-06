@@ -579,7 +579,7 @@ margin-left: 226px;
 /* inicio do passo tres e quatro */
 .passotresquatro{
     padding-left: 20%;
-    padding-top: 12%;
+    padding-top: 103px;
 }
 
 .passoutres{
@@ -605,7 +605,7 @@ margin-top: -50px;
 width: 29px;
 height: 93px;
 left: 452px;
-top:1587px;
+top:1510px;
 z-index: 2;
 font-family: 'darker-bold';
 font-style: normal;
@@ -675,7 +675,7 @@ margin-top: -50px;
     width: 29px;
     height: 93px;
     left: 1015px;
-    top:1587px;
+    top:1510px;
     z-index: 2;
     font-family: 'darker-bold';
     font-style: normal;
@@ -1005,7 +1005,7 @@ top: -312px ;
 }
 
 .texto-final {
-    margin-top: 57px;
+    margin-top: 100px;
     text-align: center;
     font-family: 'antic';
     font-size: 27px;

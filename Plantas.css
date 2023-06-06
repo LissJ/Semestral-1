@@ -343,9 +343,9 @@ nav ul li a:hover::after {
 
 .gran {
     height: 0px;
-    top: 152px;
+    /* top: 152px; */
     border: 0.3px solid #000000;
-    margin: 20px 110px;
+    margin: 26px 160px;
 }
 
 /* .cupom{
@@ -365,7 +365,7 @@ nav ul li a:hover::after {
     padding-bottom: 20px;
     text-align: center;
     background-color: #A3A3F8;
-    margin: 0 60px;
+    margin: 0 0;
 }
 
 .produtos {
@@ -392,17 +392,16 @@ nav ul li a:hover::after {
 
 .todas-plantas {
     background-color: rgba(131, 78, 255, 0.14);
-    width: 1350px;
-    margin-left: 5.5%;
+    width: 1518px;
+    margin: 0;
 }
 
 .plantas {
-
     height: 500px;
     /* background: rgba(131, 78, 255, 0.14); */
     margin: 50px 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 45px;
 }
 
@@ -672,7 +671,7 @@ nav ul li a:hover::after {
     /* background: rgba(131, 78, 255, 0.14); */
     margin: -80px 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 20px;
 }
 
@@ -681,8 +680,14 @@ nav ul li a:hover::after {
     /* background: rgba(131, 78, 255, 0.14); */
     margin: 50px 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 20px;
+}
+
+.linha .gran {
+    height: 0px;
+    border: 0.3px solid #000000;
+    margin: 19px 175px;
 }
 
 a {
@@ -701,9 +706,10 @@ a {
     width: 294px;
     height: 32px;
     left: 617px;
-    align-content: center;
+    margin-top: 30px;
+    /* align-content: center; /
     text-align: center;
-    justify-content: center;
+    / justify-content: center; */
     font-family: 'darker';
     font-style: normal;
     font-weight: 300;
@@ -714,7 +720,7 @@ a {
 
 .tudo-recomendacao {
     position: absolute;
-    top: 1270px;
+    top: 1289px;
     left: 36px;
     justify-content: space-evenly;
 }
@@ -898,7 +904,7 @@ a {
 
 .tudo-recomendacao2 {
     position: absolute;
-    top: 1520px;
+    top: 1508px;
     left: 36px;
     justify-content: space-evenly;
 }
@@ -1345,10 +1351,11 @@ a {
 }
 
 .suporte {
-    position: absolute;
+    position: fixed;
+    z-index: 999;
     width: 67px;
     height: 180px;
-    left: 1433px;
+    left: 1451px;
     top: 435px;
     background: #A3A3F8;
     border-radius: 5px;
